@@ -47,7 +47,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<div class="profile-thumb"></div>
 							<h1><span>Rodrigo Pontes</span></h1>
 							<h3><span>Software Engineer</span></h3>
 							<p>
@@ -55,7 +55,7 @@
 									<li><a href="https://www.linkedin.com/in/rodrigo-pontes-34ab5b12a/"><i class="icon-linkedin2"></i></a></li>
 									<li><a href="https://github.com/RodrigoDLPontes"><i class="icon-github2"></i></a></li>
 									<li><a href="mailto:rodrigo.dl.pontes@gmail.com"><i class="icon-envelop"></i></a></li>
-									<li><a href="#"><i class="icon-file-text2"></i></a></li>
+									<li><a href="https://github.com/RodrigoDLPontes/website/raw/master/assets/Resume.pdf"><i class="icon-file-text2"></i></a></li>
 								</ul>
 							</p>
 						</div>
@@ -72,7 +72,7 @@
 					<h2>About Me</h2>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="about-row">
 				<div class="col-md-4">
 					<ul class="info">
 						<li><span class="first-block">Full Name:</span><span class="second-block">Rodrigo Pontes</span></li>
@@ -187,7 +187,7 @@
 							<div><h3>Research</h3></div>
 						</li>
 						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-lab"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Android Wear App for Passive Haptic Learning</h3>
@@ -199,7 +199,7 @@
 							</div>
 						</li>
 						<li class="animate-box timeline-inverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-lab"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Haptic Rehabilitation Gloves for Stroke Patients</h3>
@@ -216,7 +216,7 @@
 							<div><h3>Projects</h3></div>
 						</li>
 						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-book2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Independent Volunteer Computing Front-End Development</h3>
@@ -228,7 +228,7 @@
 							</div>
 						</li>
 						<li class="animate-box timeline-inverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-book2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Independent Android Application Development</h3>
@@ -240,7 +240,7 @@
 							</div>
 						</li>
 						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-book2"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Data Structures and Algorithms Visualization Tool</h3>
@@ -257,7 +257,7 @@
 							<div><h3>Extracurricular Activities</h3></div>
 						</li>
 						<li class="animate-box timeline-inverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-earth"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">HackGT Participant</h3>
@@ -269,7 +269,7 @@
 							</div>
 						</li>
 						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-earth"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Brazilian Student Association Vice President</h3>
@@ -281,7 +281,7 @@
 							</div>
 						</li>
 						<li class="animate-box timeline-inverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-earth"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Google CodeU Participant</h3>
@@ -307,8 +307,8 @@
 						<h2>Expertise</h2>
 					</div>
 				</div>
-				<div class="service-row">
-					<div class="col-md-4 text-center">
+				<div id="service-row">
+					<div class="col-md-4 text-center" id="feature">
 						<div class="feature-left">
 							<span class="icon">
 								<i class="icon-android"></i>
@@ -319,7 +319,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 text-center">
+					<div class="col-md-4 text-center" id="feature">
 						<div class="feature-left">
 							<span class="icon">
 								<i class="icon-stack"></i>
@@ -330,7 +330,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 text-center">
+					<div class="col-md-4 text-center" id="feature">
 						<div class="feature-left">
 							<span class="icon">
 								<i class="icon-tree2"></i>
@@ -344,8 +344,8 @@
 				</div>
 
 				<br>
-				<div class="service-row">
-					<div class="col-md-4 text-center">
+				<div id="service-row">
+					<div class="col-md-4 text-center" id="feature">
 						<div class="feature-left">
 							<span class="icon">
 								<i class="icon-terminal"></i>
@@ -356,7 +356,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 text-center">
+					<div class="col-md-4 text-center" id="feature">
 						<div class="feature-left">
 							<span class="icon">
 								<i class="icon-embed"></i>
@@ -372,7 +372,7 @@
 		</div>
 	</div>
 
-	<!-- <div id="fh5co-skills" class="animate-box">
+	<div id="fh5co-skills" class="animate-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
@@ -397,37 +397,42 @@
 				{"x": "JavaScript", "value": 80},
 				{"x": "Linux", "value": 80},
 				{"x": "Android", "value": 60},
-				{"x": "React.js", "value": 50},
-				{"x": "Node.js", "value": 40},
+				{"x": "React.js", "value": 60},
+				{"x": "Git", "value": 60},
+				{"x": "Node.js", "value": 50},
+				{"x": "HTML", "value": 50},
+				{"x": "CSS", "value": 50},
+				{"x": "JUnit", "value": 40},
+				{"x": "Bash", "value": 40},
 				{"x": "Express", "value": 30},
 				{"x": "Electron", "value": 30},
 				{"x": "Android Wear", "value": 30},
-				{"x": "JUnit", "value": 30},
 				{"x": "Mockito", "value": 30},
 				{"x": "C", "value": 30},
-				{"x": "Bash", "value": 30},
 				{"x": "Scala", "value": 30},
 				{"x": "Flink", "value": 30},
-				{"x": "Git", "value": 30},
 				{"x": "SQL", "value": 30},
-				{"x": "HTML", "value": 30},
-				{"x": "CSS", "value": 30},
-				{"x": "Bulma", "value": 10},
-				{"x": "Sass", "value": 10},
-				{"x": "JSP", "value": 10},
-				{"x": "Jenkins", "value": 10},
-				{"x": "SonarQube", "value": 10},
+				{"x": "Bulma", "value": 20},
+				{"x": "Sass", "value": 20},
+				{"x": "JSP", "value": 20},
+				{"x": "Jenkins", "value": 20},
+				{"x": "SonarQube", "value": 20},
 			];
 			var chart = anychart.tagCloud(data);
-			var state = chart.normal();
-			state.fontVariant('normal');
+			chart.normal().fontVariant('small-caps');
+			chart.hover().fontVariant('small-caps');
+			chart.selected().fontVariant('small-caps');
+			chart.selected().fill('#0081d7');
+			chart.tooltip(false);
+			chart.textSpacing(4)
+			chart.colorScale(anychart.scales.linearColor().colors(["#78a0cd", "#007dcd"]));
 			chart.angles([0]);
 			chart.container("word-cloud");
 			chart.draw();
 		});
 	</script>
 
-	<div id="fh5co-work" class="fh5co-bg-dark">
+	<!-- <div id="fh5co-work" class="fh5co-bg-dark">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
@@ -501,27 +506,23 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	<div id="fh5co-blog">
+	<div id="fh5co-blog" class="fh5co-bg-dark">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Blog Posts</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Mar. 15th 2016</span>
 							<h3><a href="#">Photoshoot On The Street</a></h3>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 							<ul class="stuff">
-								<li><i class="icon-heart2"></i>249</li>
-								<li><i class="icon-eye2"></i>308</li>
 								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
@@ -529,14 +530,11 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Mar. 15th 2016</span>
 							<h3><a href="#">Surfing at Philippines</a></h3>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 							<ul class="stuff">
-								<li><i class="icon-heart2"></i>249</li>
-								<li><i class="icon-eye2"></i>308</li>
 								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
@@ -544,78 +542,45 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">Mar. 15th 2016</span>
 							<h3><a href="#">Capture Living On Uderwater</a></h3>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 							<ul class="stuff">
-								<li><i class="icon-heart2"></i>249</li>
-								<li><i class="icon-eye2"></i>308</li>
 								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div id="fh5co-started" class="fh5co-bg-dark">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Hire Me!</h2>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-					<p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
-				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 
 	<div id="fh5co-consult">
-		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
-			<div class="overlay"></div>
-		</div>
 		<div class="choose animate-box">
 			<h2>Contact</h2>
-			<form action="#">
+			<form action="https://formspree.io/myyzykea" method="POST">
 				<div class="row form-group">
 					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+						<input type="text" id="fname" class="form-control" placeholder="Your name" name="name">
 					</div>
 				</div>
 				<div class="row form-group">
 					<div class="col-md-6">
-						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+						<input type="email" id="email" class="form-control" placeholder="Your email address" name="_replyto">
 					</div>
 				</div>
-
 				<div class="row form-group">
 					<div class="col-md-12">
-						<input type="text" id="email" class="form-control" placeholder="Your email address">
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Your message"></textarea>
 					</div>
 				</div>
 				<div class="form-group">
 					<input type="submit" value="Send Message" class="btn btn-primary">
 				</div>
-
 			</form>	
 		</div>
-	</div> -->
+	</div>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
