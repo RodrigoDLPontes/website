@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   background: url(../images/background.jpg);
   background-size: cover;
+  background-color: #4880a3;
 }
 
 #fh5co-header .display-t,
@@ -174,7 +175,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h3,
   .fh5co-cover .display-tc h3 {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 #fh5co-header .display-tc .profile-thumb,
@@ -1322,12 +1323,14 @@ input[type="text"] {
 #service-row {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 660px) {
   #service-row {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0px;
   }
 }
 
